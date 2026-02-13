@@ -2,8 +2,8 @@ from fastapi import FastAPI
 import joblib
 import pandas as pd
 from pathlib import Path
-from api.schemas import CustomerData
-from services.decision_engine import evaluate_customer
+from src.api.schemas import CustomerData
+from src.services.decision_engine import evaluate_customer
 
 
 app = FastAPI(title="Customer Churn Prediction API")

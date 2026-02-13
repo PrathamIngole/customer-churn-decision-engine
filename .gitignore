@@ -5,10 +5,8 @@ data/raw/
 data/processed/
 __pycache__/
 *.pkl
-*.joblib
 .venv/
 __pycache__/
 *.pyc
 data/raw/
-models/*.joblib
 .env
